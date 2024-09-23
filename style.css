@@ -1,0 +1,122 @@
+*{
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    color: white;
+    list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #001;
+    display: flex;
+}
+.img-box{
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    overflow: hidden;
+    border: white solid 3px;
+    flex-shrink: 0;
+}
+.profile{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu{
+    background: #123;
+    width: 64px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: .8s ;
+}
+.menu:hover{
+    background: #123;
+    width: 260px;
+    height: 100vh;
+    padding: 20px;
+}
+ul{
+    height: 95%;
+    position: relative;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius:8px ;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    transition: 0.4s;
+}
+ul li a:hover , .active,.data-box:hover,td:hover{
+    background: #ffffff55;
+}
+.log-out{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.log-out a{
+    background:#a00;
+}
+ul li i{
+    font-size: x-large;
+}
+.content{
+    margin: 10px;
+    width: 100%;
+}
+.title-info{
+    background: #2969a8;
+    height: 20px;
+    border-radius:10px ;
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.data-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.data-box{
+    background-color: #123;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 150px;
+    flex-grow: 1;
+    height: 150px;
+}
+.data-box i{
+    font-size:42px;
+}
+.data-box p{
+    text-align: center;
+    font-size: 24px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    border-spacing: 6px ;
+}
+th,td{
+    background-color: #123; 
+    border-radius: 6px;
+    height: 35px;
+    padding: 5px 0px;
+}
+th{
+    background-color: #2969a8;
+}
